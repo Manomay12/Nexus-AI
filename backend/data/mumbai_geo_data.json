@@ -1,0 +1,360 @@
+{
+  "event_id": "mumbai-sports",
+  "name": "Mumbai International Sports Festival & Tech Summit",
+  "center": [72.8683, 19.0657],
+  "zoom": 13,
+  "venues": [
+    {
+      "id": "loc-venue-1",
+      "name": "Jio World Convention Centre",
+      "entity_type": "venue",
+      "coordinates": [72.8683, 19.0657],
+      "address": "G Block BKC, Bandra Kurla Complex, Mumbai, Maharashtra 400051",
+      "capacity": 10000,
+      "expected_attendance": 8500,
+      "current_pressure": 78,
+      "predicted_pressure": 92,
+      "risk_level": "HIGH",
+      "status": "INGRESS",
+      "metadata": {
+        "indoor": true,
+        "gates": 8,
+        "active_turnstiles": 24,
+        "satellite_preview": "https://images.unsplash.com/photo-1511578314322-379afb476865?auto=format&fit=crop&w=400&q=80"
+      }
+    },
+    {
+      "id": "loc-venue-2",
+      "name": "Wankhede Stadium Grand Arena",
+      "entity_type": "venue",
+      "coordinates": [72.8258, 18.9322],
+      "address": "Vinoo Mankad Rd, Churchgate, Mumbai, Maharashtra 400020",
+      "capacity": 33100,
+      "expected_attendance": 32000,
+      "current_pressure": 88,
+      "predicted_pressure": 96,
+      "risk_level": "CRITICAL",
+      "status": "LIVE",
+      "metadata": {
+        "indoor": false,
+        "gates": 12,
+        "active_turnstiles": 36,
+        "satellite_preview": "https://images.unsplash.com/photo-1577223625816-7546f13df25d?auto=format&fit=crop&w=400&q=80"
+      }
+    },
+    {
+      "id": "loc-venue-3",
+      "name": "BKC Open-Air Megaplex",
+      "entity_type": "venue",
+      "coordinates": [72.8620, 19.0680],
+      "address": "MMRDA Grounds, BKC, Mumbai, Maharashtra 400051",
+      "capacity": 25000,
+      "expected_attendance": 21000,
+      "current_pressure": 72,
+      "predicted_pressure": 85,
+      "risk_level": "MODERATE",
+      "status": "INGRESS",
+      "metadata": {
+        "indoor": false,
+        "gates": 6,
+        "active_turnstiles": 18,
+        "satellite_preview": "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=400&q=80"
+      }
+    }
+  ],
+  "hotels": [
+    {
+      "id": "loc-hotel-1",
+      "name": "Trident Hotel BKC",
+      "entity_type": "hotel",
+      "coordinates": [72.8690, 19.0665],
+      "address": "C-56, G Block, BKC, Mumbai 400098",
+      "capacity": 436,
+      "occupancy_percent": 96,
+      "available_rooms": 17,
+      "avg_rate": "$390/night",
+      "distance_km": 0.2,
+      "metadata": {
+        "stars": 5,
+        "surge_active": true,
+        "shuttle_connected": true
+      }
+    },
+    {
+      "id": "loc-hotel-2",
+      "name": "Sofitel Mumbai BKC",
+      "entity_type": "hotel",
+      "coordinates": [72.8665, 19.0672],
+      "address": "C-57, Bandra Kurla Complex, Mumbai 400051",
+      "capacity": 302,
+      "occupancy_percent": 94,
+      "available_rooms": 18,
+      "avg_rate": "$410/night",
+      "distance_km": 0.3,
+      "metadata": {
+        "stars": 5,
+        "surge_active": true,
+        "shuttle_connected": true
+      }
+    },
+    {
+      "id": "loc-hotel-3",
+      "name": "Grand Hyatt Mumbai",
+      "entity_type": "hotel",
+      "coordinates": [72.8530, 19.0760],
+      "address": "Western Express Highway, Santacruz East, Mumbai 400055",
+      "capacity": 547,
+      "occupancy_percent": 88,
+      "available_rooms": 65,
+      "avg_rate": "$290/night",
+      "distance_km": 2.4,
+      "metadata": {
+        "stars": 5,
+        "surge_active": false,
+        "shuttle_connected": true
+      }
+    },
+    {
+      "id": "loc-hotel-4",
+      "name": "Taj Lands End Bandra",
+      "entity_type": "hotel",
+      "coordinates": [72.8190, 19.0435],
+      "address": "BJ Road, Bandstand, Bandra West, Mumbai 400050",
+      "capacity": 493,
+      "occupancy_percent": 98,
+      "available_rooms": 10,
+      "avg_rate": "$520/night",
+      "distance_km": 4.8,
+      "metadata": {
+        "stars": 5,
+        "surge_active": true,
+        "shuttle_connected": true
+      }
+    },
+    {
+      "id": "loc-hotel-5",
+      "name": "Zone D Northern Eco Resort Hub",
+      "entity_type": "hotel",
+      "coordinates": [72.8500, 19.1600],
+      "address": "Eco Gateway Sector 4, Northern Corridor, Mumbai 400104",
+      "capacity": 2800,
+      "occupancy_percent": 44,
+      "available_rooms": 1240,
+      "avg_rate": "$160/night",
+      "distance_km": 11.2,
+      "metadata": {
+        "stars": 4,
+        "surge_active": false,
+        "surplus_target": true,
+        "voucher_active": true,
+        "discount_percent": 15
+      }
+    }
+  ],
+  "transport": [
+    {
+      "id": "loc-trans-1",
+      "name": "BKC Metro Interchange (Line 3)",
+      "entity_type": "metro",
+      "coordinates": [72.8640, 19.0650],
+      "address": "BKC Underground Concourse, Mumbai",
+      "capacity_per_hour": 18000,
+      "current_load_percent": 78,
+      "headway_minutes": 3.0,
+      "status": "Optimal",
+      "metadata": {
+        "lines": ["Aqua Line 3"],
+        "accessible": true
+      }
+    },
+    {
+      "id": "loc-trans-2",
+      "name": "Andheri Metro Interchange (Line 1 & 2)",
+      "entity_type": "metro",
+      "coordinates": [72.8468, 19.1197],
+      "address": "Western Express Highway, Andheri East, Mumbai",
+      "capacity_per_hour": 24000,
+      "current_load_percent": 89,
+      "headway_minutes": 2.2,
+      "status": "Surging",
+      "metadata": {
+        "lines": ["Blue Line 1", "Yellow Line 2A"],
+        "critical_junction": true
+      }
+    },
+    {
+      "id": "loc-trans-3",
+      "name": "Bandra Terminus Railway Hub",
+      "entity_type": "rail",
+      "coordinates": [72.8410, 19.0620],
+      "address": "Naupada, Bandra East, Mumbai",
+      "capacity_per_hour": 22000,
+      "current_load_percent": 84,
+      "headway_minutes": 5.0,
+      "status": "Congested",
+      "metadata": {
+        "platforms": 7
+      }
+    },
+    {
+      "id": "loc-trans-4",
+      "name": "Chhatrapati Shivaji Maharaj Int'l Airport (CSMIA)",
+      "entity_type": "airport",
+      "coordinates": [72.8656, 19.0896],
+      "address": "Sahar, Andheri East, Mumbai 400099",
+      "capacity_per_hour": 15000,
+      "current_load_percent": 68,
+      "headway_minutes": 0,
+      "status": "Optimal",
+      "metadata": {
+        "terminals": ["T1 Domestic", "T2 International"]
+      }
+    },
+    {
+      "id": "loc-trans-5",
+      "name": "BKC Multi-Level Parking G-Block",
+      "entity_type": "parking",
+      "coordinates": [72.8670, 19.0680],
+      "address": "Behind Jio Convention Centre, BKC",
+      "capacity_per_hour": 2400,
+      "current_load_percent": 36,
+      "headway_minutes": 0,
+      "status": "Optimal",
+      "metadata": {
+        "available_spots": 1536,
+        "ev_charging": 48
+      }
+    },
+    {
+      "id": "loc-trans-6",
+      "name": "Zone D Rapid Transit Depot",
+      "entity_type": "bus_hub",
+      "coordinates": [72.8480, 19.1580],
+      "address": "Northern Eco Corridor Depot 9, Mumbai",
+      "capacity_per_hour": 9000,
+      "current_load_percent": 32,
+      "headway_minutes": 4.0,
+      "status": "Optimal",
+      "metadata": {
+        "active_electric_shuttles": 45,
+        "surplus_fleet": true
+      }
+    }
+  ],
+  "traffic_corridors": [
+    {
+      "id": "corridor-weh",
+      "name": "Western Express Highway Transit Ribbon",
+      "from_coord": [72.8468, 19.1197],
+      "to_coord": [72.8640, 19.0650],
+      "congestion_level": 86,
+      "avg_speed_kmh": 18,
+      "delay_minutes": 24,
+      "risk": "HIGH"
+    },
+    {
+      "id": "corridor-bkc-connector",
+      "name": "BKC Elevated Flyover Connector",
+      "from_coord": [72.8410, 19.0620],
+      "to_coord": [72.8683, 19.0657],
+      "congestion_level": 74,
+      "avg_speed_kmh": 32,
+      "delay_minutes": 11,
+      "risk": "MODERATE"
+    },
+    {
+      "id": "corridor-zone-d-bypass",
+      "name": "Northern Eco Express Smart Skyway",
+      "from_coord": [72.8683, 19.0657],
+      "to_coord": [72.8500, 19.1600],
+      "congestion_level": 34,
+      "avg_speed_kmh": 68,
+      "delay_minutes": 2,
+      "risk": "STABLE"
+    }
+  ],
+  "risk_zones": [
+    {
+      "id": "risk-bkc-core",
+      "name": "BKC Transport & Venue Concourse",
+      "center": [72.8683, 19.0657],
+      "radius_meters": 650,
+      "current_pressure": 82,
+      "predicted_pressure_30m": 94,
+      "risk_level": "CRITICAL",
+      "factors": [
+        "Event egress convergence (8,500 pax)",
+        "Heavy rain surface speed reduction (-38%)",
+        "Metro concourse saturation (78% -> 91%)"
+      ],
+      "recommended_action": "Activate Shuttle Route B & toggle biometric turnstiles."
+    },
+    {
+      "id": "risk-andheri-axis",
+      "name": "Andheri Metro Interchange Axis",
+      "center": [72.8468, 19.1197],
+      "radius_meters": 500,
+      "current_pressure": 68,
+      "predicted_pressure_30m": 91,
+      "risk_level": "HIGH",
+      "factors": [
+        "Line 2 headway compression needed",
+        "Turnstile inflow surge in 37 mins",
+        "Busway bridge transfer bottleneck"
+      ],
+      "recommended_action": "Deploy 40 auxiliary perimeter buses to Western Highway."
+    },
+    {
+      "id": "risk-bandra-hospitality",
+      "name": "Bandra Coastal Hospitality Sector",
+      "center": [72.8190, 19.0435],
+      "radius_meters": 800,
+      "current_pressure": 76,
+      "predicted_pressure_30m": 84,
+      "risk_level": "MODERATE",
+      "factors": [
+        "Hotel occupancy at 98%",
+        "Walk-in dining reservation deficit",
+        "Coastal road private vehicle accumulation"
+      ],
+      "recommended_action": "Broadcast Zone D 15% discount hospitality voucher."
+    }
+  ],
+  "building_footprints": [
+    {
+      "id": "bldg-jwcc",
+      "name": "Jio World Convention Centre",
+      "height": 44,
+      "category": "venue",
+      "coordinates": [[[72.8672, 19.0648], [72.8698, 19.0648], [72.8698, 19.0666], [72.8672, 19.0666], [72.8672, 19.0648]]]
+    },
+    {
+      "id": "bldg-trident",
+      "name": "Trident Hotel BKC",
+      "height": 56,
+      "category": "hotel",
+      "coordinates": [[[72.8686, 19.0668], [72.8696, 19.0668], [72.8696, 19.0678], [72.8686, 19.0678], [72.8686, 19.0668]]]
+    },
+    {
+      "id": "bldg-sofitel",
+      "name": "Sofitel Luxury Hotel BKC",
+      "height": 62,
+      "category": "hotel",
+      "coordinates": [[[72.8658, 19.0668], [72.8670, 19.0668], [72.8670, 19.0679], [72.8658, 19.0679], [72.8658, 19.0668]]]
+    },
+    {
+      "id": "bldg-icici-hq",
+      "name": "ICICI Financial Towers",
+      "height": 88,
+      "category": "commercial",
+      "coordinates": [[[72.8648, 19.0654], [72.8662, 19.0654], [72.8662, 19.0666], [72.8648, 19.0666], [72.8648, 19.0654]]]
+    },
+    {
+      "id": "bldg-one-bkc",
+      "name": "One BKC Corporate Tower",
+      "height": 94,
+      "category": "commercial",
+      "coordinates": [[[72.8632, 19.0674], [72.8652, 19.0674], [72.8652, 19.0688], [72.8632, 19.0688], [72.8632, 19.0674]]]
+    }
+  ]
+}

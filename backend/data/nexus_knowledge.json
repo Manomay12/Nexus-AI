@@ -1,0 +1,242 @@
+[
+  {
+    "id": "doc-crowd-001",
+    "title": "Stadium Exit Congestion Management Protocol",
+    "category": "crowd_management",
+    "scenario": "stadium_exit_bottleneck",
+    "severity": "critical",
+    "zone": "Stadium Grand Arena",
+    "source_type": "emergency_protocol",
+    "content": "When stadium egress exceeds 1,400 spectators per minute per gate, perimeter marshals must immediately activate dual-phase egress corridors. Turnstiles 1 through 12 switch to unhindered bidirectional free-flow within 90 seconds. South Terminal pedestrian skyway opens to divert 35% of foot traffic away from the ground-level concourse. Visual digital signage across Level 2 displays directional arrows pointing to Northern Boulevard express buses. Under no circumstances should egress gates be throttled while interior concourse pressure exceeds 85%."
+  },
+  {
+    "id": "doc-crowd-002",
+    "title": "Gate Failure Response and Perimeter Bypasses",
+    "category": "crowd_management",
+    "scenario": "gate_failure",
+    "severity": "high",
+    "zone": "Stadium Grand Arena",
+    "source_type": "emergency_protocol",
+    "content": "In the event of automated turnstile or biometric scanner failure at Gate 3 or Gate 4, physical barrier bypass doors must be manually unlocked within 120 seconds. Deploy 16 ground stewards equipped with handheld QR scanners to verify tickets at auxiliary security checkpoints. Announce immediate rerouting over the public address system and push geo-targeted alerts to mobile devices within a 400-meter radius directing visitors to Gate 1 and Gate 6 bypass channels."
+  },
+  {
+    "id": "doc-crowd-003",
+    "title": "Emergency Evacuation & Multi-Corridor Clearance",
+    "category": "crowd_management",
+    "scenario": "emergency_evacuation",
+    "severity": "critical",
+    "zone": "Stadium Grand Arena",
+    "source_type": "emergency_protocol",
+    "content": "Emergency stadium evacuation mandates opening all 24 perimeter blast doors and acoustic dampeners simultaneously. Audio alerts broadcast multi-lingual clear instructions at 85 decibels. Emergency green lighting guides spectators to four designated open assembly sectors: North Park, East Esplanade, Southern Plaza, and West Perimeter. Vehicular traffic within 1.2 kilometers of the stadium is instantly frozen by smart traffic control to yield exclusive right-of-way to pedestrian egress."
+  },
+  {
+    "id": "doc-crowd-004",
+    "title": "Spatial Crowd Redistribution & Perimeter Dispersal",
+    "category": "crowd_management",
+    "scenario": "crowd_redistribution",
+    "severity": "medium",
+    "zone": "Stadium Grand Arena",
+    "source_type": "standard_operating_procedure",
+    "content": "To prevent sudden localized density exceeding 4.5 persons per square meter, the command system initiates phased departure incentives. Spectators seated in upper decks receive push notifications featuring exclusive post-match light shows, stadium hospitality lounge vouchers, and delayed exit dining discounts. Staggering egress by 20 to 35 minutes reduces initial concourse surge volume by 42%, maintaining optimal flow into connecting transit stations."
+  },
+  {
+    "id": "doc-weather-001",
+    "title": "Heavy Rainfall & Sudden Downpour Egress Directive",
+    "category": "weather",
+    "scenario": "heavy_rain",
+    "severity": "high",
+    "zone": "All",
+    "source_type": "emergency_protocol",
+    "content": "Precipitation exceeding 25mm/hour triggers the Monsoon Egress Divergence Plan. Surface roadway speeds drop by an estimated 38%, and up to 74% of attendees instinctively flee toward underground metro stations. To avoid lethal subterranean crowding, activate covered perimeter shuttle bays immediately. 40 reserve articulated buses must form a continuous sheltered loop between Stadium Gate 4 and Station C. Deploy non-slip traction matting along pedestrian walkways and open covered hospitality pavilions for sheltered waiting."
+  },
+  {
+    "id": "doc-weather-002",
+    "title": "Monsoon Flooding & Surface Transit Disruption",
+    "category": "weather",
+    "scenario": "monsoon_flooding",
+    "severity": "critical",
+    "zone": "Andheri Metro Interchange",
+    "source_type": "emergency_protocol",
+    "content": "When localized water accumulation exceeds 15 cm along Western Express Highway or Junction 7 underpasses, vehicular traffic must be rerouted immediately to elevated Skyway 2. Low-floor transit buses are swapped for high-clearance electric commuter shuttles. Sump pumps at Andheri Metro Substation must be verified operational on secondary backup diesel generator circuits to prevent platform water ingress. Broadcast reroute notifications to all ride-share dispatch centers."
+  },
+  {
+    "id": "doc-weather-003",
+    "title": "Extreme Heatwave & Hydration Grid Protocol",
+    "category": "weather",
+    "scenario": "extreme_heat",
+    "severity": "medium",
+    "zone": "Central Sports Core",
+    "source_type": "standard_operating_procedure",
+    "content": "Ambient wet-bulb globe temperature exceeding 34°C activates Level 2 Thermal Mitigation. Deploy 18 mobile misting arches along main concourses and ensure free chilled water refill stations every 50 meters. Medical triage kiosks are established at Gates 1, 4, and 8 stocked with electrolyte packets and rapid cooling immersion units. Transit providers increase air conditioning cooling cycles across all incoming metro carriages and shuttle buses to pre-cool passenger cabins."
+  },
+  {
+    "id": "doc-weather-004",
+    "title": "Lightning Risk & Open Concourse Shelter Operations",
+    "category": "weather",
+    "scenario": "lightning_risk",
+    "severity": "critical",
+    "zone": "Stadium Grand Arena",
+    "source_type": "emergency_protocol",
+    "content": "Detection of cloud-to-ground lightning strikes within 10 kilometers enforces immediate suspension of outdoor plaza activities and high-wire broadcast operations. Marshals guide spectators into reinforced concrete interior concourses. Elevators and metal temporary bleachers are secured. Outdoor digital displays switch to emergency shelter instructions until 30 continuous minutes pass with zero detected lightning discharges within the 10km surveillance ring."
+  },
+  {
+    "id": "doc-transport-001",
+    "title": "Metro Line 2 Overload & Turnstile Flow Metering",
+    "category": "transport",
+    "scenario": "metro_capacity_overload",
+    "severity": "critical",
+    "zone": "Andheri Metro Interchange",
+    "source_type": "emergency_protocol",
+    "content": "When station concourse passenger volume surpasses 88% rated capacity, automated smart turnstiles transition into pulse-metering mode, admitting 150 passengers every 45 seconds to maintain safe platform clearance. Metro headway is compressed from 4.5 minutes to 2.2 minutes by deploying 4 hot-standby six-car trainsets. Station marshals redirect excess surface foot traffic toward dedicated Busway Route B situated 200 meters west."
+  },
+  {
+    "id": "doc-transport-002",
+    "title": "Perimeter Electric Bus Fleet Mobilization",
+    "category": "transport",
+    "scenario": "bus_deployment",
+    "severity": "high",
+    "zone": "Andheri Metro Interchange",
+    "source_type": "multi_agency_directive",
+    "content": "Upon command authorization, 40 zero-emission high-capacity electric buses deploy from Northern Depot to Arena Gate 1 and Gate 4. Buses operate on 3-minute continuous headway without scheduled timetables, loading passengers to capacity and departing via dedicated express transit lanes. Transit signal priority algorithms give buses continuous green lights through all 14 intersections leading directly to Northern Buffer Terminus."
+  },
+  {
+    "id": "doc-transport-003",
+    "title": "Dynamic Autonomous Shuttle & Reroute Corridors",
+    "category": "transport",
+    "scenario": "shuttle_routing",
+    "severity": "medium",
+    "zone": "Zone D - Northern Eco Gateway",
+    "source_type": "standard_operating_procedure",
+    "content": "Dedicated autonomous shuttles run between Stadium Eastern Terminal and Zone D Northern Eco Gateway on an isolated grade-separated transitway. Route travel duration is 12 minutes, bypassing all surface traffic bottlenecks. Visitors selecting Zone D transit vouchers receive automated digital boarding passes with guaranteed seating. Fleet telematics automatically adjust vehicle spacing to absorb passenger surges."
+  },
+  {
+    "id": "doc-transport-004",
+    "title": "Last-Mile Transport Gridlock & Ride-Share Geofencing",
+    "category": "transport",
+    "scenario": "last_mile_failure",
+    "severity": "high",
+    "zone": "Bandra Coastal Gateway",
+    "source_type": "emergency_protocol",
+    "content": "To eliminate gridlock caused by thousands of private ride-share vehicles converging on venue gates, establish a 1.5-kilometer geofenced perimeter. Ride-share pickups and drop-offs inside this perimeter are digitally blocked in ride-hail applications. Instead, three high-throughput designated Mobility Hubs (North Hub, Skybridge East, Coastal Depot) process 450 vehicles per hour using automated multi-bay loading zones."
+  },
+  {
+    "id": "doc-hospitality-001",
+    "title": "Zone A Hotel Saturation & Rate Gouging Mitigation",
+    "category": "hospitality",
+    "scenario": "hotel_saturation",
+    "severity": "high",
+    "zone": "Bandra Coastal Gateway",
+    "source_type": "standard_operating_procedure",
+    "content": "When hotel occupancy in Zone A exceeds 94%, city tourism authorities lock dynamic price surge caps to prevent extortionate room rates. Concurrently, the NEXUS dynamic inventory engine queries real-time room availability across secondary hospitality corridors. Zone D currently retains 1,240 vacant verified luxury rooms. The system initiates an automated visitor reallocation campaign with subsidized hotel-transit bundled vouchers."
+  },
+  {
+    "id": "doc-hospitality-002",
+    "title": "Hospitality Redistribution to Zone D Eco Gateway",
+    "category": "hospitality",
+    "scenario": "accommodation_redistribution",
+    "severity": "medium",
+    "zone": "Zone D - Northern Eco Gateway",
+    "source_type": "standard_operating_procedure",
+    "content": "Zone D Northern Eco Gateway boasts 1,240 surplus premium rooms, 72% parking surplus, and 640 open restaurant tables. By broadcasting a 15% booking discount paired with free express electric shuttle passes to incoming event attendees, the city successfully redistributes 18% of overnight visitors away from saturated coastal areas, lowering aggregate city core pressure by 22%."
+  },
+  {
+    "id": "doc-hospitality-003",
+    "title": "Dining & Restaurant Reservation Surge Management",
+    "category": "hospitality",
+    "scenario": "restaurant_capacity",
+    "severity": "medium",
+    "zone": "BKC Business & Hotel Hub",
+    "source_type": "standard_operating_procedure",
+    "content": "Post-event dining demand spikes between 21:30 and 23:45, causing severe table deficits in immediate venue districts. NEXUS partners with BKC and Zone D dining associations to display live table wait times on venue exit digital kiosks and mobile apps. Visitors booking dining tables in Zone D receive priority boarding for express transit shuttles and complimentary beverage tokens."
+  },
+  {
+    "id": "doc-hospitality-004",
+    "title": "Emergency Stranded Visitor Accommodation Protocol",
+    "category": "hospitality",
+    "scenario": "emergency_accommodation",
+    "severity": "high",
+    "zone": "All",
+    "source_type": "emergency_protocol",
+    "content": "In scenarios where severe transit breakdowns or weather cancellations leave more than 3,000 visitors stranded overnight, the city converts secondary municipal arenas and convention halls into secure hospitality shelter hubs. Provide cots, thermal blankets, phone charging stations, clean water, and medical aid. Coordinate with hotel chains to release unsold inventory blocks at government-subsidized emergency flat rates."
+  },
+  {
+    "id": "doc-incident-001",
+    "title": "2024 Cricket Championship Early Exit Surge Case Study",
+    "category": "historical_incidents",
+    "scenario": "early_exit",
+    "severity": "high",
+    "zone": "Stadium Grand Arena",
+    "source_type": "historical_telemetry",
+    "content": "Historical telemetry from the 2024 International Final: The match concluded 48 minutes earlier than scheduled due to a rapid wicket collapse. 68,000 spectators simultaneously entered the egress concourse before auxiliary transport was mobilized, resulting in a 92-minute platform crush at Metro Line 2 and gridlock along arterial roads. Lesson learned: AI predictive models must continuously track live match scoreboards to pre-position fleet assets 45 minutes prior to statistical game termination."
+  },
+  {
+    "id": "doc-incident-002",
+    "title": "2023 Monaco Grand Prix Harbor Cloudburst After-Action",
+    "category": "historical_incidents",
+    "scenario": "severe_weather",
+    "severity": "critical",
+    "zone": "All",
+    "source_type": "historical_telemetry",
+    "content": "During the 2023 Monaco Grand Prix, a sudden torrential storm dumped 40mm of rain in 35 minutes just as podium celebrations ended. Surface taxis were immobilized within minutes, and 12,000 spectators overcrowded the subterranean railway tunnel. Resolution required mobilizing private nautical ferries and luxury coach corridors. Standard operating procedures now require pre-staged sheltered wait zones and dual-mode road/marine transit contingencies."
+  },
+  {
+    "id": "doc-incident-003",
+    "title": "Substation Power Failure & Metro Stoppage Telemetry",
+    "category": "historical_incidents",
+    "scenario": "transport_breakdown",
+    "severity": "critical",
+    "zone": "Andheri Metro Interchange",
+    "source_type": "historical_telemetry",
+    "content": "An electrical substation short in 2022 halted Metro Line 2 for 44 minutes during peak egress. Crowd density outside the station rose from 1.8 to 5.2 people/m² within 20 minutes. The crisis was averted by rerouting all surface foot traffic to autonomous busway lanes and deploying 30 police motorcycle escorts to guide bus convoys through gridlocked surface intersections."
+  },
+  {
+    "id": "doc-incident-004",
+    "title": "Sudden Concourse Crowd Surge & Turnstile Jamming",
+    "category": "historical_incidents",
+    "scenario": "crowd_surge",
+    "severity": "high",
+    "zone": "Central Rail & Harbor Terminal",
+    "source_type": "historical_telemetry",
+    "content": "In October 2023, an unannounced VIP motorcade closure caused 15,000 rail passengers to back up across Central Terminal concourse. Turnstiles jammed under physical pressure. The response protocol established that whenever platform queue time exceeds 18 minutes, all mechanical turnstiles must be decoupled and free passage authorized while digital headcounts track throughput overhead."
+  },
+  {
+    "id": "doc-plan-001",
+    "title": "Synchronized Multi-Agency Incident Command Protocol",
+    "category": "emergency_response",
+    "scenario": "multi_agency_coordination",
+    "severity": "critical",
+    "zone": "All",
+    "source_type": "multi_agency_directive",
+    "content": "When composite city pressure score exceeds 85% (CRITICAL), the NEXUS Unified Command Protocol is activated. Police, Transit Authority, Fire/Rescue, Hospitality Board, and Event Management operate from a single shared telemetric dashboard. Automated mutual-aid triggers authorize transit buses to cross municipal district boundaries and permit emergency signal preemption across 32 key intersections."
+  },
+  {
+    "id": "doc-plan-002",
+    "title": "Automated Visitor Push Notification & Dynamic Guidance",
+    "category": "emergency_response",
+    "scenario": "visitor_notification",
+    "severity": "medium",
+    "zone": "All",
+    "source_type": "standard_operating_procedure",
+    "content": "The NEXUS Citizen Notification Engine delivers targeted notifications to event attendees based on precise indoor and outdoor geofencing. Messages are categorized into Actionable Guidance (e.g. 'Use Gate 4 for zero-wait shuttles'), Hospitality Perks ('Zone D dining voucher attached'), or Urgent Safety ('Avoid South Concourse'). Average attendee route compliance increases by 34% when recommendations include clear time-saving metrics."
+  },
+  {
+    "id": "doc-plan-003",
+    "title": "Alternative Route & Green-Wave Signal Coordination",
+    "category": "emergency_response",
+    "scenario": "alternative_routes",
+    "severity": "high",
+    "zone": "All",
+    "source_type": "standard_operating_procedure",
+    "content": "When Route A (Direct Central Corridor) reaches 90% congestion, the smart city traffic controller initiates Green-Wave priority along Route B (Northern Perimeter Loop) and Route C (Smart Skyway). Traffic lights maintain 80-second continuous green bands for mass transit shuttles. Dynamic street LED signage updates every 60 seconds with live travel time comparisons: Route A (44 mins) vs Route B (21 mins)."
+  },
+  {
+    "id": "doc-plan-004",
+    "title": "Metropolitan Capacity Redistribution Framework",
+    "category": "emergency_response",
+    "scenario": "capacity_redistribution",
+    "severity": "high",
+    "zone": "All",
+    "source_type": "multi_agency_directive",
+    "content": "The fundamental principle of NEXUS orchestration is spatial capacity rebalancing. High-risk zones with critical pressure (above 85%) offload demand onto buffer sectors with excess capacity (Zone D, Northern Terminus). Utilizing real-time incentives, autonomous shuttle convoys, and synchronized turnstile modulation, city-wide pressure is equalized, preventing systemic infrastructure failures during mega-events."
+  }
+]
